@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neon Button</title>
+<style>
+* {
+	margin: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+body {
+	background: black;
+}
+button {
+	transition: 0.5s;
+	width: 200px;
+	height: 80px;
+	background: none;
+	font-size: 25px;
+	color: lightblue;
+	border: 3px solid lightblue;
+	margin: 80px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+button:hover {
+	transition: 0.5s;
+	background: lightblue;
+	color: black;
+	box-shadow: 0px 0px 40px lightblue;
+
+}
+</style>
+</head>
+<body>
+<button>Neon Button</button>
+</body>
+</html>
